@@ -80,7 +80,7 @@ class UI {
     // ])
 
     this.displayBlinkingUIMessage(
-      "Press [ Space ] to Start Game",
+      "Press [ Space ] to Start Game and Get All 100!",
       vec2(center().x, center().y + 250)
     )
 
