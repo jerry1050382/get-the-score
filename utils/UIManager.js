@@ -81,12 +81,22 @@ class UI {
 
     this.displayBlinkingUIMessage(
       "Press [ Space ] to Start Game and Get All 100!",
-      vec2(center().x, center().y + 250)
+      vec2(center().x, center().y + 220)
     )
 
     onKeyPress("space", () => {
       play("confirm-ui", { speed: 1.5 })
       go("controls")
+    })
+
+    this.displayBlinkingUIMessage(
+      "Press [ ESC ] to Quit the Game",
+      vec2(center().x, center().y + 300)
+    )
+
+    onKeyPress("escape", () => {
+      play("confirm-ui", { speed: 1.5 })
+      window.location.href = "https://classroomdaydream.vercel.app/"
     })
   }
 
