@@ -94,6 +94,7 @@ class UI {
       vec2(center().x, center().y + 300)
     )
 
+    //link to home
     
     onKeyPress("escape", () => {
       play("confirm-ui", { speed: 1.5 })
