@@ -8,7 +8,7 @@ class UI {
         size: 50,
       }),
       fixed(),
-      pos(70, 10),
+      pos(70, 80),
     ])
 
     this.livesCountUI.add([
@@ -29,7 +29,7 @@ class UI {
         fullScoreCount: get("score", { recursive: true }).length,
       },
       fixed(),
-      pos(70, 70),
+      pos(70, 150),
     ])
 
     this.scoreCountUI.add([sprite("score-icon"), pos(-60, 0), scale(3), fixed()])
