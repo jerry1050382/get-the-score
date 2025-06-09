@@ -41,14 +41,6 @@ export const load = {
         idle: 0,
       },
     })
-    loadSprite("teacher-2", "./assets/Teacher_2.png", {
-      sliceX: 3,
-      sliceY: 1,
-      anims: {
-        crawl: { from: 0, to: 2, loop: true },
-        idle: 0,
-      },
-    })
     loadSprite("newsky-background", "./assets/NewSky_Background_0.png")
     loadSprite("topfloor-tileset", "./assets/TopFloor_Tileset.png", {
       sliceX: 3,

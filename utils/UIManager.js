@@ -94,6 +94,7 @@ class UI {
       vec2(center().x, center().y + 300)
     )
 
+    
     onKeyPress("escape", () => {
       play("confirm-ui", { speed: 1.5 })
       window.location.href = "https://classroomdaydream.vercel.app/"
